@@ -67,10 +67,9 @@ index.html
 - [x] Indicadores de slide
 
 ### Versão 1.1
-- [ ] Navegação por teclado
-- [ ] Autoplay dos slides
-- [ ] Responsividade
-- [ ] Animação da lata
+- [x] Navegação por teclado
+- [x] Responsividade
+- [x] Animação da lata
 
 ### Versão 1.2
 - [ ] Swipe Touch para dispositivos móveis
