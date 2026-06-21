@@ -39,11 +39,11 @@ O projeto apresenta um carrossel de refrigerantes com transições suaves, indic
 
 ![Preview do Projeto](https://github.com/AthillaDev/Projeto-Refri-Dev/blob/master/img/Gif-Refri-Dev.gif?raw=true)
 
-🔗 Deploy:
+## 🔗 Deploy:
 
-Acesse o projeto online:
+Projeto online:
 
-https://seu-deploy.vercel.app
+[https://seu-deploy.vercel.app](https://projeto-refri-dev.vercel.app/)
 
 ## 📂 Como executar
 
