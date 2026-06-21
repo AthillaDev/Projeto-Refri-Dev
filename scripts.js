@@ -21,10 +21,10 @@ next.addEventListener("click", () => {
     let activeOld = document.querySelector(".active")
     activeOld.classList.remove("active")
 
-    active = active >= count -1 ? 0 : active + 1
+    active = active >= count - 1 ? 0 : active + 1
     list[active].classList.add("active")
     updateDots()
-    
+
 
 })
 
@@ -33,8 +33,20 @@ prev.addEventListener("click", () => {
     let activeOld = document.querySelector(".active")
     activeOld.classList.remove("active")
 
-    active = active <= 0 ? count -1 : active - 1
+    active = active <= 0 ? count - 1 : active - 1
     list[active].classList.add("active")
     updateDots()
+
+})
+
+document.addEventListener("keydown", (event) => {
+
+    if (event.key === "ArrowRight") {
+        next.click()
+    }
+
+    if (event.key === "ArrowLeft") {
+        prev.click()
+    }
 
 })
